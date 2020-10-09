@@ -1,0 +1,143 @@
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin:  0 ;
+}
+
+body {
+
+
+}
+
+.title {
+	padding:20px 20px 20px 0;
+}
+ .main {
+ 	display: flex;
+ 	justify-content: center;
+ 	width: 100%;
+
+
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%
+
+}
+.unordered-list-title {
+	margin-top: 20px;
+	padding: 15px;
+	width: 94%;
+    border-left:6px solid #dc1c86;
+    font-size: 20px;
+    background-color: #f1eaea;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.unordered {
+	margin-top: 20px;
+	margin-left: 0;
+}
+.unordered li{
+	list-style-type: none;
+	padding: 14px;
+	border: .1px solid #f1eaea;
+	margin-top: 5px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.unordered li:hover , .ordered li:hover {
+ background-color: #dc1c86;
+ color: white;
+}
+.ordered  {
+	margin-top: 20px;
+}
+.ordered li{
+	list-style-type: upper-roman;
+	padding: 14px;
+	border: .1px solid #f1eaea;
+	margin-top: 5px;
+	border-radius: 4px;
+	margin-left: 20px;
+	cursor: pointer;
+
+}
+li::first-letter {
+	text-transform: uppercase;
+}
+.d-flex {
+	display: flex;
+}
+.justify-center {
+	justify-content: center;
+}
+.items-center {
+	align-items: center;
+
+}
+.w-50 {
+	width: 50%
+}
+.w-full {
+	width: 100%
+}
+
+
+/*
+margin*/
+
+.ml-10 {
+	margin-left: 10px
+}
+.mr-10 {
+	margin-right: 10px
+}
+.border-default {
+	border: 1px solid black;
+}
+
+
+
+.form input {
+
+}
+input {
+	width: 96%;
+	padding: 10px;
+	border-radius: 4px;
+	border:1px solid #f1eaea;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+label {
+	margin-top: 10px
+}
+
+.form {
+	border:1px solid #f1eaea;
+	padding: 20px 60px 60px 60px;
+	-webkit-box-shadow: 9px -5px 5px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px -5px 5px -10px rgba(0,0,0,0.75);
+	box-shadow: 9px -5px 5px -10px rgba(0,0,0,0.75);
+}
+select {
+	padding: 10px;
+	width: 50%;
+	border:1px solid #f1eaea;
+}
+textarea {
+	margin-top: 20px;
+	padding: 10px;
+	width: 96%;
+	border:1px solid #f1eaea;
+}
+button {
+	background-color: #dc1c86;
+	padding: 10px;
+	outline: none;
+	border: none;
+	color: white;
+	width: 40%;
+}

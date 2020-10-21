@@ -42,7 +42,7 @@ body {
 .unordered li{
 	list-style-type: none;
 	padding: 14px;
-	border: .1px solid #f1eaea;
+		border: .1px solid #f1eaea;
 	margin-top: 5px;
 	border-radius: 4px;
 	cursor: pointer;
